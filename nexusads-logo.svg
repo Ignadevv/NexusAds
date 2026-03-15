@@ -1,0 +1,96 @@
+<svg width="400" height="400" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="ng" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#00e5ff"/>
+    <stop offset="100%" stop-color="#b44fff"/>
+  </linearGradient>
+  <linearGradient id="ng2" x1="100%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#b44fff"/>
+    <stop offset="100%" stop-color="#00e5ff"/>
+  </linearGradient>
+  <clipPath id="cc">
+    <circle cx="160" cy="160" r="128"/>
+  </clipPath>
+</defs>
+
+<!-- Background circle -->
+<circle cx="160" cy="160" r="160" fill="#06060f"/>
+<circle cx="160" cy="160" r="150" fill="#0a0a18"/>
+
+<!-- Inner grid -->
+<g clip-path="url(#cc)" opacity="0.12">
+  <line x1="32" y1="32" x2="32" y2="288" stroke="#00e5ff" stroke-width="0.6"/>
+  <line x1="72" y1="32" x2="72" y2="288" stroke="#00e5ff" stroke-width="0.6"/>
+  <line x1="112" y1="32" x2="112" y2="288" stroke="#00e5ff" stroke-width="0.6"/>
+  <line x1="152" y1="32" x2="152" y2="288" stroke="#00e5ff" stroke-width="0.6"/>
+  <line x1="192" y1="32" x2="192" y2="288" stroke="#00e5ff" stroke-width="0.6"/>
+  <line x1="232" y1="32" x2="232" y2="288" stroke="#00e5ff" stroke-width="0.6"/>
+  <line x1="272" y1="32" x2="272" y2="288" stroke="#00e5ff" stroke-width="0.6"/>
+  <line x1="32" y1="72" x2="288" y2="72" stroke="#00e5ff" stroke-width="0.6"/>
+  <line x1="32" y1="112" x2="288" y2="112" stroke="#00e5ff" stroke-width="0.6"/>
+  <line x1="32" y1="152" x2="288" y2="152" stroke="#00e5ff" stroke-width="0.6"/>
+  <line x1="32" y1="192" x2="288" y2="192" stroke="#00e5ff" stroke-width="0.6"/>
+  <line x1="32" y1="232" x2="288" y2="232" stroke="#00e5ff" stroke-width="0.6"/>
+</g>
+
+<!-- Outer rings -->
+<circle cx="160" cy="160" r="148" fill="none" stroke="url(#ng)" stroke-width="1.5"/>
+<circle cx="160" cy="160" r="128" fill="none" stroke="#b44fff" stroke-width="0.7" stroke-opacity="0.5"/>
+<circle cx="160" cy="160" r="108" fill="none" stroke="#00e5ff" stroke-width="0.4" stroke-opacity="0.25"/>
+
+<!-- Corner brackets -->
+<path d="M 22 22 L 22 44 L 44 44" fill="none" stroke="#00e5ff" stroke-width="2" stroke-linecap="square"/>
+<path d="M 298 22 L 298 44 L 276 44" fill="none" stroke="#00e5ff" stroke-width="2" stroke-linecap="square"/>
+<path d="M 22 298 L 22 276 L 44 276" fill="none" stroke="#b44fff" stroke-width="2" stroke-linecap="square"/>
+<path d="M 298 298 L 298 276 L 276 276" fill="none" stroke="#b44fff" stroke-width="2" stroke-linecap="square"/>
+
+<!-- Hexagon -->
+<polygon points="160,58 196,79 196,121 160,142 124,121 124,79" fill="#0c0c22" stroke="url(#ng)" stroke-width="2"/>
+
+<!-- N centered in hexagon -->
+<text x="160" y="100"
+  text-anchor="middle"
+  dominant-baseline="central"
+  font-family="'Courier New',monospace"
+  font-weight="900"
+  font-size="52"
+  fill="url(#ng)">N</text>
+
+<!-- Hex corner dots -->
+<circle cx="124" cy="100" r="3" fill="#00e5ff" opacity="0.7"/>
+<circle cx="196" cy="100" r="3" fill="#b44fff" opacity="0.7"/>
+<circle cx="160" cy="58" r="3" fill="#00e5ff"/>
+<circle cx="160" cy="142" r="3" fill="#b44fff"/>
+
+<!-- Brand name -->
+<text x="160" y="184" text-anchor="middle"
+  font-family="'Courier New',monospace" font-weight="900" font-size="38"
+  letter-spacing="1">
+  <tspan fill="#ffffff">Nexus</tspan><tspan fill="#b44fff">Ads</tspan>
+</text>
+
+<!-- Divider -->
+<line x1="80" y1="196" x2="240" y2="196" stroke="url(#ng)" stroke-width="0.8" opacity="0.7"/>
+
+<!-- Tagline -->
+<text x="160" y="215" text-anchor="middle"
+  font-family="'Courier New',monospace" font-size="9"
+  fill="#00e5ff" letter-spacing="5">CONECTA CON TU AUDIENCIA</text>
+
+<!-- Sub tag -->
+<text x="160" y="234" text-anchor="middle"
+  font-family="'Courier New',monospace" font-size="8"
+  fill="#6b6b99" letter-spacing="3">META ADS · IA POWERED</text>
+
+<!-- Side scan lines -->
+<line x1="12" y1="158" x2="50" y2="158" stroke="#00e5ff" stroke-width="1" opacity="0.5"/>
+<line x1="270" y1="158" x2="308" y2="158" stroke="#00e5ff" stroke-width="1" opacity="0.5"/>
+<line x1="12" y1="163" x2="38" y2="163" stroke="#b44fff" stroke-width="0.6" opacity="0.4"/>
+<line x1="282" y1="163" x2="308" y2="163" stroke="#b44fff" stroke-width="0.6" opacity="0.4"/>
+
+<!-- Version pill -->
+<rect x="140" y="248" width="40" height="14" rx="7" fill="none" stroke="#00e5ff" stroke-width="0.7" stroke-opacity="0.4"/>
+<text x="160" y="259" text-anchor="middle"
+  font-family="'Courier New',monospace" font-size="7"
+  fill="#00e5ff" opacity="0.6" letter-spacing="2">v1.0</text>
+</svg>
